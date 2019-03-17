@@ -1,0 +1,128 @@
+﻿@model List<WebModel.MenuRelationButton>
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        @Styles.Render("~/bundles/css")
+        @Styles.Render("~/iconfont/css")
+        @Scripts.Render("~/bundles/js")
+        @Styles.Render("~/fonts/treecss")
+        @Scripts.Render("~/bundles/treejs")
+    </head>
+    <body>
+        <div class="place">
+            <span>位置：</span>
+            <ul class="placeul">
+                <li><a href="#">权限</a></li>
+                <li><a href="#">权限关联菜单</a></li>
+            </ul>
+        </div>
+        <div class="rightinfo">
+            <div id="list">
+                <div class="widget-body  am-fr" style="margin-left:2%">
+                    <div class="tm-u-lg-11 am-cf">
+                        <div class="tm-fr">
+                            <div id="default_tree">
+                                <ul>
+                               @{
+                                  var temp = (List<WebModel.MenuRelationButton>)ViewData["temps"];
+                                  foreach (var mm in temp) 
+                                  {
+                                    var detail = Model.Where(pp => pp.Pid == mm.MenuID).Select(pp => new { pp.MenuName, pp.MenuID}).Distinct().ToList();
+                                    var tempmodel = Model.Where(pp => pp.Pid == mm.MenuID && pp.IsChecked == true).ToList();
+                                    bool IsChecked = tempmodel.Count > 0 ? true : false;
+                                    if (detail.Count>0)
+                                    { 
+                                      <li class="li_all">
+                                        <label class="labeltt" style="position: absolute;left: 12px;top: 9px;">
+                                            <input onclick="checkevent('checkmenu_@mm.MenuID')" @(IsChecked ? Html.Raw("checked='true'") : Html.Raw("")) type="checkbox" id="checkmenu_@mm.MenuID" />
+                                            <i>
+                                                ✓
+                                            </i>
+                                        </label>
+                                        <a class="tree-node">
+                                            <div class="div2">
+                                                <i class="fa fa-file-text-o  status fa-minus-square-o"></i>
+                                                <i class="fa fa-folder-open-o"></i>
+                                                <span>@mm.MenuName</span>
+                                            </div>
+                                            <input class="open" style="display: none;" />
+                                        </a>
+                                      
+                                        <ul class="myul">
+                                            @foreach(var nn in detail){
+                                                var button = Model.Where(pp => pp.MenuID == nn.MenuID).Select(pp => new { pp.ButtonName, pp.ButtonID, pp.IsChecked }).ToList();
+                                                var tempmodeltemp = Model.Where(pp => pp.MenuID == nn.MenuID && pp.IsChecked == true).ToList();
+                                                bool IsCheckeds = tempmodeltemp.Count > 0 ? true : false;
+                                                <li class="myli">
+                                                    <a class="tree-node">
+                                                        <div class="div2 div4">
+                                                            <i class="fa fa-file-text-o " style="color: #8414BD;"></i>
+                                                            <label class="labeltt">
+                                                                <input type="checkbox" onclick="checkevent('checkmenu_@(mm.MenuID)_@nn.MenuID')" @(IsCheckeds ? Html.Raw("checked='true'") : Html.Raw(""))=) id="checkmenu_@(mm.MenuID)_@nn.MenuID" />
+                                                                <i>
+                                                                    ✓
+                                                                </i>
+                                                                @nn.MenuName
+                                                            </label>
+                                                            <br />
+                                                        </div>
+                                                    </a>
+                                                    @foreach(var tt in button){
+                                                         <a class="tree-node">
+                                                             <div class="div2  div4">
+                                                                 <i class="fa fa-file-text-o "></i>
+                                                                 <label class="labeltt">
+                                                                     <input type="checkbox" onclick="checkevent('checkmenu_@(mm.MenuID)_@(nn.MenuID)_@(tt.ButtonID)')" @(tt.IsChecked ? Html.Raw("checked='true'") : Html.Raw(""))=) id="checkmenu_@(mm.MenuID)_@(nn.MenuID)_@(tt.ButtonID)" />
+                                                                     <i>
+                                                                         ✓
+                                                                     </i>
+                                                                     @tt.ButtonName
+                                                                 </label>
+                                                                 <br />
+                                                             </div>
+                                                         </a>
+                                                    }
+                                                </li>
+                                                }
+                                      </ul>
+                                    </li>
+                                    }
+                                    else
+                                    {
+                                        <li class="myli">
+                                            <a class="tree-node">
+                                                <div class="div2 div4">
+                                                    <i class="fa fa-file-text-o "></i>
+                                                    <label class="labeltt">
+                                                        <input type="checkbox" onclick="checkevent('checkmenu_@(mm.MenuID)')" @(IsChecked ? Html.Raw("checked='true'") : Html.Raw(""))=) id="checkmenu_@(mm.MenuID)" />
+                                                        <i>
+                                                            ✓
+                                                        </i>
+                                                        @mm.MenuName
+                                                    </label>
+                                                    <br />
+                                                </div>
+                                            </a>
+                                        </li>
+                                    }
+                                  }
+                                }
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="forminfo" style="margin-top:50px;margin-left:3%">
+                <li><input name="" type="button" id="savebtn" onclick="editrole(@ViewBag.ID)" class="btn" value="确认保存" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="返回" /></li>
+            </ul>
+        </div>
+    </body>
+</html>
+<script>
+    var obj = ".tree-node";
+    load(obj);
+    nodeClick($('#default_tree'));
+</script>

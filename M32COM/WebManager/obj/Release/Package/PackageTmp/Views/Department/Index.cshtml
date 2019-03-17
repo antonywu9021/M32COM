@@ -1,0 +1,37 @@
+﻿@model WebManager.MyPageInfo<WebModel.Department>
+@{
+    var role = WebManager.DAConfig.GetButtonRole("Department/Index");
+}
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        @Styles.Render("~/bundles/css")
+        @Styles.Render("~/iconfont/css")
+        @Scripts.Render("~/bundles/js")
+    </head>
+    <body>
+
+        <div class="place">
+            <span>位置：</span>
+            <ul class="placeul">
+                @Html.Raw(role.NavInfo)
+            </ul>
+        </div>
+
+        <div class="rightinfo">
+           
+                <ul class="toolbar">
+                    @if (role.UserType == 0 || role.RoleDetail.Where(pp => pp.ButtonName.Contains("添加")).Count() > 0)
+                    {
+                        <li class="click" onclick="javascript: location.href = '/Department/EditDepartment?id=0'"><span><img src="~/images/t01.png" /></span>添加</li>
+                    }
+                </ul>
+
+            <div id="list">
+                @Html.Partial("Index_Partial", Model)
+            </div>
+        </div>
+    </body>
+</html>

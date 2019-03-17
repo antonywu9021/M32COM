@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>考试系统-登录</title>
+    <link rel="stylesheet" href="~/phone/fonts/iconfont.css" />
+    <link rel="stylesheet" href="~/phone/css/font.css" />
+    <link rel="stylesheet" href="~/phone/css/mui.css" />
+    <link rel="stylesheet" href="~/phone/css/login.css" />
+    <script src="~/phone/js/jquery-1.8.3.min.js"></script>
+    <link href="~/css/weui-min.css" rel="stylesheet" />
+    <script src="~/js/msgmanger.js"></script>
+    <script type="text/javascript">
+             pushHistory();
+             window.addEventListener("popstate", function(e) {
+				pushHistory();
+			 }, false);
+			 function pushHistory() {
+				var state = {
+					title:"title",
+					url:"#"
+				};
+				window.history.pushState(state, "title", "#");
+			}
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img src="~/phone/img/logintitle.png" style="width:100%" />
+    </div>
+    <div class="errmsg" id="errmsg"></div>
+    <div class="login-wrap">
+        <form id="form1">
+            <div class="login-box">
+                <div class="input-wrap">
+                    <input id="UserName" name="UserName" type="text"  placeholder="登录账号" tag="zhanghao" msg="账号" />
+                </div>
+                <div class="input-wrap">
+                    <input id="UserPassword" name="UserPassword"   type="password" class="loginpwd" placeholder="密码" msg="密码" tag="mima"/>
+                </div>
+            </div>
+        </form>
+        <div class="btns"></div>
+        <a href="javascript:void(0)"  id="denglu"  class="weui_btn login-btn weui_btn_primary">登录</a>
+        <div class="nologin">还没有账号？请先<a href="/phoneregist/index">注册</a></div>
+    </div>
+    <div class="footer">
+    </div>
+</body>
+</html>
+<script>
+    $("#denglu").click(function () {
+        $.yanzheng("/PhoneLogin/loginform", "#form1", "/home/index");
+    })
+</script>

@@ -1,0 +1,40 @@
+﻿@model WebModel.User
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>答题系统注册界面</title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+
+<body>
+    <div class="formbody">
+        <div class="formtitle"><span>用户注册</span></div>
+        <form id="form1">
+            <ul class="forminfo" style="width: 500px;  margin: 10px auto;">
+                <li><label>账号<b>*</b></label><input id="UserName" name="UserName" type="text" class="dfinput" tag="zhanghao" msg="账号" /><i></i></li>
+                <li><label>真实姓名<b>*</b></label><input id="TrueName" name="TrueName" type="text" class="dfinput" tag="empty" msg="真实姓名" /><i></i></li>
+                <li><label>密码<b>*</b></label><input id="UserPassword" name="UserPassword" type="password" class="dfinput" tag="mima" msg="密码" /><i></i></li>
+                <li><label>确认密码<b>*</b></label><input id="ConfirmPassword" name="ConfirmPassword" type="password" class="dfinput" tag="equ(UserPassword,ConfirmPassword)" msg="两次输入密码不一致" /><i></i></li>
+                <li><label>联系方式<b>*</b></label><input id="Phone" name="Phone" type="text" class="dfinput" tag="phone" msg="联系方式" /><i></i></li>
+                <li><label>身份证号</label><input id="CardNum" name="CardNum" type="text" class="dfinput" msg="身份证号" /><i></i></li>
+
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="确认保存" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="返回" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".select1").uedSelect({
+            width: 345
+        });
+        $("#savebtn").click(function () {
+            $.yanzheng("/login/RegisterForm", "#form1", "/admin/index");
+        })
+    });
+</script>

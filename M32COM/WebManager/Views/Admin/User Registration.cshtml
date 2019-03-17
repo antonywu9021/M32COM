@@ -1,0 +1,199 @@
+﻿@model WebModel.User
+
+@{
+    ViewBag.Title = "User Registration";
+}
+
+<h2>User Registration</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <form id="form2">
+        <legend>User</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserType)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserType)
+            @Html.ValidationMessageFor(model => model.UserType)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserName)
+            @Html.ValidationMessageFor(model => model.UserName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserPassword)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserPassword)
+            @Html.ValidationMessageFor(model => model.UserPassword)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.OldUserPassword)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.OldUserPassword)
+            @Html.ValidationMessageFor(model => model.OldUserPassword)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TrueName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TrueName)
+            @Html.ValidationMessageFor(model => model.TrueName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SaiShiID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SaiShiID)
+            @Html.ValidationMessageFor(model => model.SaiShiID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SaiShiName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SaiShiName)
+            @Html.ValidationMessageFor(model => model.SaiShiName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DepartmentID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DepartmentID)
+            @Html.ValidationMessageFor(model => model.DepartmentID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DepartmentName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DepartmentName)
+            @Html.ValidationMessageFor(model => model.DepartmentName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreateTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CreateTime)
+            @Html.ValidationMessageFor(model => model.CreateTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CreateID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CreateID)
+            @Html.ValidationMessageFor(model => model.CreateID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UpdateTime)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UpdateTime)
+            @Html.ValidationMessageFor(model => model.UpdateTime)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UpdateID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UpdateID)
+            @Html.ValidationMessageFor(model => model.UpdateID)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Remark)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Remark)
+            @Html.ValidationMessageFor(model => model.Remark)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Phone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Phone)
+            @Html.ValidationMessageFor(model => model.Phone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Age)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Age)
+            @Html.ValidationMessageFor(model => model.Age)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Status)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Status)
+            @Html.ValidationMessageFor(model => model.Status)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IsDelete)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IsDelete)
+            @Html.ValidationMessageFor(model => model.IsDelete)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.UserTypeName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.UserTypeName)
+            @Html.ValidationMessageFor(model => model.UserTypeName)
+        </div>
+
+        <div>
+            <input id="regbutton" type="submit" value="Create" onclick="javascript:history.go(-1)" />
+
+        </div>
+
+    </form>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $("#regbutton").click(function () {
+	    $.yanzheng("/Login/RegisterForm", "#form2", "/user/index");
+	})
+});
+</script>

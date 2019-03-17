@@ -1,0 +1,56 @@
+﻿@model WebModel.Menu
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+
+<body>
+
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">菜单管理</a></li>
+            <li><a href="#">设置</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>菜单基本信息</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                @Html.Hidden("ID", Model.ID)
+                <li><label>菜单名称<b>*</b></label><input id="Name" name="Name" type="text" class="dfinput" tag="empty" value="@Model.Name" msg="菜单名称" /><i></i></li>
+                <li>
+                    <label>上级菜单</label>
+                    <div class="vocation">
+                        @Html.DropDownList("Pid", (List<SelectListItem>)ViewData["menuselect"],new{@class="select1"})
+                    </div>
+                </li>
+                @*<li><label>图标ico</label><input id="IcoInfo" name="IcoInfo" type="text" class="dfinput"  value="@Model.IcoInfo" /><i></i></li>*@
+                <li><label>连接地址<b>*</b></label><input id="LinkUrl" name="LinkUrl" type="text" class="dfinput" tag="empty" value="@Model.LinkUrl" msg="连接地址" /><i></i></li>
+                <li><label>排序<b>*</b></label><input id="Sort" name="Sort" type="text" class="dfinput" tag="shuzi" msg="排序" placeholder="数字越小越排前" value="@Model.Sort" /><i></i></li>
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="确认保存" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="返回" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".select1").uedSelect({
+            width: 345
+        });
+    })
+    $("#savebtn").click(function () {
+        $.yanzheng("/Menu/EditMenuForm", "#form1","/Menu/Index",func);//, "", func
+    })
+    function func() {
+        $("#leftFrame", parent.document).attr("src", "/admin/left");
+        //$.alert("操作成功！",a);"/Menu/Index")
+    }
+</script>

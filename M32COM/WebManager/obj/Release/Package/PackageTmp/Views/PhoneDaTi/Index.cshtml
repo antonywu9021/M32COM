@@ -1,0 +1,223 @@
+﻿@model  WebModel.ShiTi  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title>@ViewBag.Title 在线作答</title>
+        <link rel="stylesheet" href="~/phone/fonts/iconfont.css"/>
+        <link rel="stylesheet" href="~/phone/css/font.css"/>
+        <link rel="stylesheet" href="~/phone/css/style.css"/>
+        <link rel="stylesheet" href="~/phone/css/mui.min.css"/>
+		<link rel="stylesheet" href="~/phone/css/mui.css"/>
+		<script src="~/phone/js/jquery-1.8.3.min.js"></script>
+		<script src="~/phone/js/TouchSlide.1.1.js"></script>
+        <link href="~/css/weui-min.css" rel="stylesheet" />
+        <script src="~/js/msgmanger.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#AnsDis").click(function(){
+					var questionid=$("#QuesDoing").val();
+					if(questionid=="")
+					{
+						$("#QuesDoing").val($("#QuestionDoing1").val());
+						questionid=$("#QuesDoing").val();
+					}
+					$("#QuesAnsw"+questionid).css("display","block");
+                    if($("#TrueAns"+questionid).text()=="")
+					{
+						$("#TrueAns"+questionid).text("无");
+					}
+				});
+				//答案点击
+				//$(".options").click(function(){
+				//	$("a.doing").addClass("done");   //答题板上的颜色
+				//	var val=$(this).attr("val");     //题目答案
+				//	var ids=$(this).attr("ids");	 //题目编号
+				//	$("li[ids="+ids+"]").removeClass("click");
+				//	$(this).addClass("click");
+				//	$(".doneCount").text($("a.done").length);
+				//	$("#QuestionA"+ids).val(val);
+				//	$("#TrueAns"+ids).text(val);
+				//});
+				$("#closeLayAB").click(function(){
+					$("#layAB").hide();
+				});
+			});
+	    </script>
+        <script type="text/javascript">
+             pushHistory(); 
+             window.addEventListener("popstate", function(e) { 
+				pushHistory();
+			 }, false); 
+			 function pushHistory() { 
+				var state = { 
+					title:"title", 
+					url:"#"
+				}; 
+				window.history.pushState(state, "title", "#"); 
+			} 
+	   </script>
+    </head>
+    <body>
+	<form id="UsersDo" name="UsersDo" method="post" action="random_exam_do.html" onsubmit="return checkForm()">
+	     <header>
+			<div class="titlebar reverse" >
+			   @*<div >
+					<i class="iconfont">&#xe639;</i>
+					<i style="color:#ffffff;font-size:20px;font-weight:bold;margin-left:10px;">已答题（<span class="doneCount" style="margin-left:0;margin-top:-5px;">0</span>/10）</i>
+			   </div>*@
+			   <div style="color:#ffffff;font-size:20px;font-weight:bold;">
+                @if (ViewBag.DaTiStatus == "0")
+                {
+					<img src="~/phone/img/clock.png"/>
+					<i class="timing" id="timer">
+						<b id="m"></b><b>:</b>
+						<b id="s"></b>
+					</i>
+                 }
+			   </div>
+			</div>
+		</header>
+		<article style="padding-bottom:44px;padding-top:44px;" id="leftTabBox">
+		    @Html.Partial("Index_Partial", Model)
+        </article>
+		<a class="back" id="nextbtn" title="下一题"></a> 
+        <input type="hidden" id="CorrectItem" name="CorrectItem" value="" /> 
+        <footer>
+            @*<ul class="menubar animated fadeInUp delay3">
+                <li class="tab" id="AnsSheet" style="color:#888;font-family:microsoft yahei;">
+                    <i class="iconfont" style="font-size:24px;">&#xe63c;</i>
+                    <label class="tab-label">答题板&nbsp;&nbsp;</label>
+                </li>
+                <li class="tab" id="collection" style="color:#888;font-family:microsoft yahei;">
+                    <i class="iconfont">&#xe61d;</i>
+                    <label class="tab-label">收藏</label>
+                </li>
+                <li class="tab" id="SubmitExam" style="color:#888;font-family:microsoft yahei;">
+                    <i class="iconfont">&#xe62c;</i>
+                    <label class="tab-label">提交</label>
+                </li>
+            </ul>*@
+        </footer>
+        <footer>
+            <ul class="menubar animated fadeInUp delay3">
+                <li class="tab" id="AnsSheet" style="color:#888;font-family:microsoft yahei;">
+                    <i class="iconfont" style="font-size:24px;">&#xe63c;</i>
+                    <label class="tab-label">查看考试结果&nbsp;&nbsp;</label>
+                </li>
+                @*<li class="tab" id="collection" style="color:#888;font-family:microsoft yahei;">
+                    <i class="iconfont">&#xe61d;</i>
+                    <label class="tab-label">收藏</label>
+                </li>*@
+            </ul>
+        </footer>
+		<script type="text/javascript">
+		$(".con a").click(function(){
+			  index=$(this).text()-1;
+			  s=$(".test").css("width")
+			  temp=parseInt(s.substring(0,s.length-2));
+			  t="-"+temp*index+"px";
+			  document.getElementById("bd12").style.webkitTransform="translate("+t+",0px)  translateZ(0px)";
+			  $(".layAB").hide();
+	    });
+		$("#AnsSheet").click(function(){
+		    $(".layAB").show();
+		    location.href = "/Home/KaoShiResult?id=@ViewBag.PID";
+		});
+
+		$("li[id^=item_]").on("click", function () {
+		    var str = "";
+            var id = $(this).attr("id").split("_")[1];
+            if ($("#shititype").val() == "0") {
+                $("li[id^=item_]").removeClass("click");
+                $(this).addClass("click");
+                str = id;
+            } else {
+                var $array = $("li[id^=item_]");
+                if ($(this).hasClass("click")) {
+                    $(this).removeClass("click")
+                } else {
+                    $(this).removeClass("click").addClass("click");
+                }
+                for (var i = 0; i < $array.length; i++) {
+                    if ($array.eq(i).hasClass("click")) {
+                        str += $array.eq(i).attr("id").split("_")[1];
+                    }
+                }
+            }
+            $("#CorrectItem").val(str);
+        })
+        $("#nextbtn").click(function () {
+            if ($("#CorrectItem").val() == "") {
+                $.alert("请选择正确答案！");
+            } else {
+                if ($("#shititype").val() == "0") {
+                    if ($("#CorrectItem").val().length != 1) {
+                        $.alert("只能选择一个答案！");
+                        return false;
+                    } else {
+                        submitshiti();
+                    }
+                } else {
+                    if ($("#CorrectItem").val().length < 2) {
+                        $.alert("多选题至少两个答案！");
+                        return false;
+                    } else {
+                        submitshiti();
+                    }
+                }
+            }
+        })
+        function submitshiti() {
+            $.setcommstr("/phonedati/TiJiaoShiTiDaAn?id=@(ViewBag.ID)&pid=@(ViewBag.PID)", "#UsersDo", "/phonedati/index?id=@(ViewBag.ID)&pid=@(ViewBag.PID)&num=@(ViewBag.Num)","","已提交");
+        }
+	    //TouchSlide({slideCell:"#leftTabBox",startFun:function(i){ //已做题目标识
+		//	  $("a.doing").removeClass("doing");
+		//	  $(".con a").eq(i).addClass("doing");
+		//	  i++;
+		//	  $("#QuesDoing").val($("#QuestionDoing"+i).val());
+		//	  $(".itemansw").css("display","none");
+		//}});
+		/*倒计时*/
+		var count=0;
+		var CUR_TIME = 0;var END_TIME = 600;var LEFT_TIME;var M_LABEL;var S_LABEL;var ID;
+		function timer() {
+			if(ID) {window.clearTimeout(ID);}
+			if(!S_LABEL || !M_LABEL) {M_LABEL = document.getElementById("m");S_LABEL = document.getElementById("s");}
+			LEFT_TIME = END_TIME - CUR_TIME;
+			if(LEFT_TIME > 0) {
+				M_LABEL.innerHTML = format(parseInt(LEFT_TIME / 60));S_LABEL.innerHTML = format((LEFT_TIME % 60));CUR_TIME ++;
+				$("#current_time").val(CUR_TIME);
+				if(CUR_TIME ==END_TIME){
+        			setTimeout("fSubmit()", 3000);
+				}
+			}else {return 0;}
+			ID = window.setTimeout(timer, 1000);
+		}
+		function fSubmit()
+		{
+				document.UsersDo.submit();
+		}
+		function format(time) {if(time < 10) {return ("0"+ time);} else {return time;}}
+		window.onload=function(){timer()}
+		$("#SubmitExam").click(function(){
+			var btnArray = ["否", "是"];
+			if($("a.done").length<10&&LEFT_TIME>0)
+			{
+				mui.confirm("还有未答完的题目,确认要提交吗？", "确认提交", btnArray, function(e) {
+					if (e.index == 1) {
+						document.UsersDo.submit();
+					} else {
+
+					}
+				})
+			}else
+			{
+				document.UsersDo.submit();
+			}
+		});
+	</script>
+	</form>
+   </body>
+</html>

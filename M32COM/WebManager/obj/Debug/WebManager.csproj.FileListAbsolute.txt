@@ -1,0 +1,584 @@
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebManager.dll.config
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebManager.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebManager.pdb
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Antlr3.Runtime.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Aspose.Cells.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Aspose.Slides.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Aspose.Words.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\ChnCharInfo.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Microsoft.Office.Interop.Excel.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Microsoft.Office.Interop.PowerPoint.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Microsoft.Office.Interop.Word.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Newtonsoft.Json.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Net.Http.Formatting.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Helpers.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Http.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Http.WebHost.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Mvc.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Optimization.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Razor.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.WebPages.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebDal.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebGrease.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebModel.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\office.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Microsoft.Vbe.Interop.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebDal.pdb
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\WebModel.pdb
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\Newtonsoft.Json.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Optimization.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Net.Http.Formatting.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Helpers.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Http.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Http.WebHost.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Mvc.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.Razor.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.WebPages.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+E:\E wenjian\SourceCode\WebManager\WebManager\obj\Debug\WebManager.dll
+E:\E wenjian\SourceCode\WebManager\WebManager\obj\Debug\WebManager.pdb
+E:\WebManager\WebManager\bin\WebManager.dll.config
+E:\WebManager\WebManager\bin\WebManager.dll
+E:\WebManager\WebManager\bin\WebManager.pdb
+E:\WebManager\WebManager\bin\Antlr3.Runtime.dll
+E:\WebManager\WebManager\bin\Aspose.Cells.dll
+E:\WebManager\WebManager\bin\Aspose.Slides.dll
+E:\WebManager\WebManager\bin\Aspose.Words.dll
+E:\WebManager\WebManager\bin\ChnCharInfo.dll
+E:\WebManager\WebManager\bin\Microsoft.Office.Interop.Excel.dll
+E:\WebManager\WebManager\bin\Microsoft.Office.Interop.PowerPoint.dll
+E:\WebManager\WebManager\bin\Microsoft.Office.Interop.Word.dll
+E:\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+E:\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\WebManager\WebManager\bin\Newtonsoft.Json.dll
+E:\WebManager\WebManager\bin\System.Net.Http.Formatting.dll
+E:\WebManager\WebManager\bin\System.Web.Helpers.dll
+E:\WebManager\WebManager\bin\System.Web.Http.dll
+E:\WebManager\WebManager\bin\System.Web.Http.WebHost.dll
+E:\WebManager\WebManager\bin\System.Web.Mvc.dll
+E:\WebManager\WebManager\bin\System.Web.Optimization.dll
+E:\WebManager\WebManager\bin\System.Web.Razor.dll
+E:\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+E:\WebManager\WebManager\bin\System.Web.WebPages.dll
+E:\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+E:\WebManager\WebManager\bin\WebDal.dll
+E:\WebManager\WebManager\bin\WebGrease.dll
+E:\WebManager\WebManager\bin\WebModel.dll
+E:\WebManager\WebManager\bin\office.dll
+E:\WebManager\WebManager\bin\Microsoft.Vbe.Interop.dll
+E:\WebManager\WebManager\bin\WebDal.pdb
+E:\WebManager\WebManager\bin\WebModel.pdb
+E:\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+E:\WebManager\WebManager\bin\Newtonsoft.Json.xml
+E:\WebManager\WebManager\bin\System.Web.Optimization.xml
+E:\WebManager\WebManager\bin\System.Net.Http.Formatting.xml
+E:\WebManager\WebManager\bin\System.Web.Helpers.xml
+E:\WebManager\WebManager\bin\System.Web.Http.xml
+E:\WebManager\WebManager\bin\System.Web.Http.WebHost.xml
+E:\WebManager\WebManager\bin\System.Web.Mvc.xml
+E:\WebManager\WebManager\bin\System.Web.Razor.xml
+E:\WebManager\WebManager\bin\System.Web.WebPages.xml
+E:\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+E:\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+E:\WebManager\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+E:\WebManager\WebManager\obj\Debug\WebManager.dll
+E:\WebManager\WebManager\obj\Debug\WebManager.pdb
+E:\dyjh\WebManager\WebManager\bin\WebManager.dll.config
+E:\dyjh\WebManager\WebManager\bin\WebManager.dll
+E:\dyjh\WebManager\WebManager\bin\WebManager.pdb
+E:\dyjh\WebManager\WebManager\bin\Antlr3.Runtime.dll
+E:\dyjh\WebManager\WebManager\bin\Aspose.Cells.dll
+E:\dyjh\WebManager\WebManager\bin\Aspose.Slides.dll
+E:\dyjh\WebManager\WebManager\bin\Aspose.Words.dll
+E:\dyjh\WebManager\WebManager\bin\ChnCharInfo.dll
+E:\dyjh\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+E:\dyjh\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\dyjh\WebManager\WebManager\bin\Newtonsoft.Json.dll
+E:\dyjh\WebManager\WebManager\bin\System.Net.Http.Formatting.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.Helpers.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.Http.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.Http.WebHost.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.Mvc.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.Optimization.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.Razor.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.dll
+E:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+E:\dyjh\WebManager\WebManager\bin\WebDal.dll
+E:\dyjh\WebManager\WebManager\bin\WebGrease.dll
+E:\dyjh\WebManager\WebManager\bin\WebModel.dll
+E:\dyjh\WebManager\WebManager\bin\stdole.dll
+E:\dyjh\WebManager\WebManager\bin\WebDal.pdb
+E:\dyjh\WebManager\WebManager\bin\WebModel.pdb
+E:\dyjh\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+E:\dyjh\WebManager\WebManager\bin\Newtonsoft.Json.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.Optimization.xml
+E:\dyjh\WebManager\WebManager\bin\System.Net.Http.Formatting.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.Helpers.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.Http.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.Http.WebHost.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.Mvc.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.Razor.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+E:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\dyjh\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+E:\dyjh\WebManager\WebManager\obj\Debug\WebManager.dll
+E:\dyjh\WebManager\WebManager\obj\Debug\WebManager.pdb
+D:\dyjh\WebManager\WebManager\bin\WebManager.dll.config
+D:\dyjh\WebManager\WebManager\bin\WebManager.dll
+D:\dyjh\WebManager\WebManager\bin\WebManager.pdb
+D:\dyjh\WebManager\WebManager\bin\Antlr3.Runtime.dll
+D:\dyjh\WebManager\WebManager\bin\Aspose.Cells.dll
+D:\dyjh\WebManager\WebManager\bin\Aspose.Slides.dll
+D:\dyjh\WebManager\WebManager\bin\Aspose.Words.dll
+D:\dyjh\WebManager\WebManager\bin\ChnCharInfo.dll
+D:\dyjh\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+D:\dyjh\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\dyjh\WebManager\WebManager\bin\Newtonsoft.Json.dll
+D:\dyjh\WebManager\WebManager\bin\System.Net.Http.Formatting.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.Helpers.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.Http.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.Http.WebHost.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.Mvc.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.Optimization.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.Razor.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.dll
+D:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+D:\dyjh\WebManager\WebManager\bin\WebDal.dll
+D:\dyjh\WebManager\WebManager\bin\WebGrease.dll
+D:\dyjh\WebManager\WebManager\bin\WebModel.dll
+D:\dyjh\WebManager\WebManager\bin\stdole.dll
+D:\dyjh\WebManager\WebManager\bin\WebDal.pdb
+D:\dyjh\WebManager\WebManager\bin\WebModel.pdb
+D:\dyjh\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+D:\dyjh\WebManager\WebManager\bin\Newtonsoft.Json.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.Optimization.xml
+D:\dyjh\WebManager\WebManager\bin\System.Net.Http.Formatting.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.Helpers.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.Http.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.Http.WebHost.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.Mvc.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.Razor.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+D:\dyjh\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\dyjh\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\dyjh\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+D:\dyjh\WebManager\WebManager\obj\Debug\WebManager.dll
+D:\dyjh\WebManager\WebManager\obj\Debug\WebManager.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebManager.dll.config
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebManager.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebManager.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Antlr3.Runtime.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Aspose.Cells.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Aspose.Slides.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Aspose.Words.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\ChnCharInfo.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Newtonsoft.Json.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Net.Http.Formatting.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Helpers.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Http.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Http.WebHost.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Mvc.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Optimization.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Razor.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.WebPages.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebGrease.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\stdole.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\Newtonsoft.Json.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Optimization.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Net.Http.Formatting.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Helpers.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Http.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Http.WebHost.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Mvc.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.Razor.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.WebPages.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\obj\Debug\WebManager.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebManager\obj\Debug\WebManager.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebManager.dll.config
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebManager.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebManager.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Antlr3.Runtime.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Aspose.Cells.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Aspose.Slides.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Aspose.Words.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\ChnCharInfo.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Newtonsoft.Json.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Helpers.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Mvc.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Optimization.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Razor.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.WebPages.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebGrease.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\Newtonsoft.Json.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Optimization.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Helpers.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Mvc.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.Razor.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.WebPages.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\obj\Debug\WebManager.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebManager\obj\Debug\WebManager.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebManager.dll.config
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebManager.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebManager.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Antlr3.Runtime.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Aspose.Cells.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Aspose.Slides.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Aspose.Words.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\ChnCharInfo.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Microsoft.Web.Infrastructure.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Newtonsoft.Json.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Helpers.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Mvc.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Optimization.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Razor.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.WebPages.Deployment.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.WebPages.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.WebPages.Razor.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebDal.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebGrease.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebModel.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebDal.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\WebModel.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Antlr3.Runtime.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Newtonsoft.Json.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Optimization.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Helpers.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Mvc.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Razor.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.WebPages.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.WebPages.Deployment.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.WebPages.Razor.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\obj\Debug\WebManager.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\obj\Debug\WebManager.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Microsoft.Office.Interop.Excel.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Microsoft.Office.Interop.PowerPoint.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Microsoft.Office.Interop.Word.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Net.Http.Formatting.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Http.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Http.WebHost.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\office.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\Microsoft.Vbe.Interop.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\stdole.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Net.Http.Formatting.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Http.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\System.Web.Http.WebHost.xml
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebManager.dll.config
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebManager.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebManager.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Antlr3.Runtime.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Aspose.Cells.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Aspose.Slides.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Aspose.Words.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\ChnCharInfo.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Microsoft.Office.Interop.Excel.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Microsoft.Office.Interop.PowerPoint.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Microsoft.Office.Interop.Word.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Microsoft.Web.Infrastructure.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Newtonsoft.Json.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Net.Http.Formatting.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Helpers.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Http.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Http.WebHost.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Mvc.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Optimization.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Razor.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.WebPages.Deployment.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.WebPages.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.WebPages.Razor.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebDal.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebGrease.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebModel.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\office.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Microsoft.Vbe.Interop.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\stdole.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebDal.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\WebModel.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Antlr3.Runtime.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\Newtonsoft.Json.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Optimization.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Net.Http.Formatting.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Helpers.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Http.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Http.WebHost.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Mvc.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.Razor.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.WebPages.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.WebPages.Deployment.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\System.Web.WebPages.Razor.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\obj\Debug\WebManager.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebManager\obj\Debug\WebManager.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebManager.dll.config
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebManager.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebManager.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Antlr3.Runtime.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Aspose.Cells.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Aspose.Slides.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Aspose.Words.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\ChnCharInfo.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Microsoft.Office.Interop.Excel.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Microsoft.Office.Interop.PowerPoint.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Microsoft.Office.Interop.Word.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Microsoft.Web.Infrastructure.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Newtonsoft.Json.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Net.Http.Formatting.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Helpers.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Http.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Http.WebHost.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Mvc.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Optimization.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Razor.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.WebPages.Deployment.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.WebPages.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.WebPages.Razor.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebDal.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebGrease.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebModel.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\office.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Microsoft.Vbe.Interop.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\stdole.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebDal.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\WebModel.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Antlr3.Runtime.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\Newtonsoft.Json.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Optimization.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Net.Http.Formatting.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Helpers.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Http.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Http.WebHost.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Mvc.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.Razor.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.WebPages.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.WebPages.Deployment.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\System.Web.WebPages.Razor.xml
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\obj\Debug\WebManager.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\obj\Debug\WebManager.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebManager\obj\Debug\WebManager.pdb
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebManager.dll.config
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebManager.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebManager.pdb
+C:\Users\wuche\Desktop\好048\WebManager\bin\Antlr3.Runtime.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\Aspose.Cells.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\Aspose.Slides.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\Aspose.Words.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\ChnCharInfo.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\Newtonsoft.Json.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Net.Http.Formatting.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Helpers.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Http.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Http.WebHost.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Mvc.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Optimization.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Razor.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.WebPages.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebDal.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebGrease.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebModel.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\stdole.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebDal.pdb
+C:\Users\wuche\Desktop\好048\WebManager\bin\WebModel.pdb
+C:\Users\wuche\Desktop\好048\WebManager\bin\Antlr3.Runtime.pdb
+C:\Users\wuche\Desktop\好048\WebManager\bin\Newtonsoft.Json.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Optimization.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Net.Http.Formatting.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Helpers.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Http.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Http.WebHost.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Mvc.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.Razor.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.WebPages.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\wuche\Desktop\好048\WebManager\obj\Debug\WebManager.csprojAssemblyReference.cache
+C:\Users\wuche\Desktop\好048\WebManager\obj\Debug\WebManager.csproj.CoreCompileInputs.cache
+C:\Users\wuche\Desktop\好048\WebManager\obj\Debug\WebManager.csproj.CopyComplete
+C:\Users\wuche\Desktop\好048\WebManager\obj\Debug\WebManager.dll
+C:\Users\wuche\Desktop\好048\WebManager\obj\Debug\WebManager.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebManager.dll.config
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebManager.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebManager.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Antlr3.Runtime.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Aspose.Cells.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Aspose.Slides.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Aspose.Words.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\ChnCharInfo.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Newtonsoft.Json.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Net.Http.Formatting.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Helpers.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Http.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Http.WebHost.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Mvc.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Optimization.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Razor.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.WebPages.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebDal.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebGrease.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebModel.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\stdole.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebDal.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebModel.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Antlr3.Runtime.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\Newtonsoft.Json.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Optimization.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Net.Http.Formatting.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Helpers.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Http.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Http.WebHost.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Mvc.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.Razor.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.WebPages.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\obj\Debug\WebManager.csprojAssemblyReference.cache
+C:\Users\wuche\Desktop\M32 coursework\WebManager\obj\Debug\WebManager.csproj.CoreCompileInputs.cache
+C:\Users\wuche\Desktop\M32 coursework\WebManager\obj\Debug\WebManager.csproj.CopyComplete
+C:\Users\wuche\Desktop\M32 coursework\WebManager\obj\Debug\WebManager.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\obj\Debug\WebManager.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\EntityFramework.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\EntityFramework.SqlServer.dll
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebDal.dll.config
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\WebModel.dll.config
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\EntityFramework.xml
+C:\Users\wuche\Desktop\M32 coursework\WebManager\bin\EntityFramework.SqlServer.xml

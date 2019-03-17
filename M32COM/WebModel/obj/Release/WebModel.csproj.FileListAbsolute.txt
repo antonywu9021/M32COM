@@ -1,0 +1,17 @@
+E:\WebManager\WebModel\bin\Release\WebModel.dll
+E:\WebManager\WebModel\bin\Release\WebModel.pdb
+E:\WebManager\WebModel\obj\Release\WebModel.dll
+E:\WebManager\WebModel\obj\Release\WebModel.pdb
+E:\dyjh\WebManager\WebModel\bin\Release\WebModel.dll
+E:\dyjh\WebManager\WebModel\bin\Release\WebModel.pdb
+E:\dyjh\WebManager\WebModel\obj\Release\WebModel.dll
+E:\dyjh\WebManager\WebModel\obj\Release\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebModel\bin\Release\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebModel\bin\Release\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebModel\obj\Release\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebModel\obj\Release\WebModel.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebModel\bin\Release\WebModel.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebModel\bin\Release\WebModel.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebModel\obj\Release\WebModel.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebModel\obj\Release\WebModel.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebModel\obj\Release\WebModel.csprojResolveAssemblyReference.cache

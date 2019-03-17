@@ -1,0 +1,88 @@
+E:\E wenjian\SourceCode\WebManager\WebDal\bin\Debug\WebDal.dll
+E:\E wenjian\SourceCode\WebManager\WebDal\bin\Debug\WebDal.pdb
+E:\E wenjian\SourceCode\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\E wenjian\SourceCode\WebManager\WebDal\bin\Debug\WebModel.dll
+E:\E wenjian\SourceCode\WebManager\WebDal\bin\Debug\WebModel.pdb
+E:\E wenjian\SourceCode\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+E:\E wenjian\SourceCode\WebManager\WebDal\obj\Debug\WebDal.dll
+E:\E wenjian\SourceCode\WebManager\WebDal\obj\Debug\WebDal.pdb
+E:\WebManager\WebDal\bin\Debug\WebDal.dll
+E:\WebManager\WebDal\bin\Debug\WebDal.pdb
+E:\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\WebManager\WebDal\bin\Debug\WebModel.dll
+E:\WebManager\WebDal\bin\Debug\WebModel.pdb
+E:\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+E:\WebManager\WebDal\obj\Debug\WebDal.dll
+E:\WebManager\WebDal\obj\Debug\WebDal.pdb
+E:\dyjh\WebManager\WebDal\bin\Debug\WebDal.dll
+E:\dyjh\WebManager\WebDal\bin\Debug\WebDal.pdb
+E:\dyjh\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\dyjh\WebManager\WebDal\bin\Debug\WebModel.dll
+E:\dyjh\WebManager\WebDal\bin\Debug\WebModel.pdb
+E:\dyjh\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+E:\dyjh\WebManager\WebDal\obj\Debug\WebDal.dll
+E:\dyjh\WebManager\WebDal\obj\Debug\WebDal.pdb
+D:\dyjh\WebManager\WebDal\bin\Debug\WebDal.dll
+D:\dyjh\WebManager\WebDal\bin\Debug\WebDal.pdb
+D:\dyjh\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\dyjh\WebManager\WebDal\bin\Debug\WebModel.dll
+D:\dyjh\WebManager\WebDal\bin\Debug\WebModel.pdb
+D:\dyjh\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\WebManager\WebDal\obj\Debug\WebDal.dll
+D:\dyjh\WebManager\WebDal\obj\Debug\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Debug\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Debug\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Debug\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Debug\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\obj\Debug\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\obj\Debug\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\bin\Debug\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\bin\Debug\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\bin\Debug\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\bin\Debug\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\obj\Debug\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统（客服1 已结清）\WebManager\WebDal\obj\Debug\WebDal.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Debug\WebDal.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Debug\WebDal.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Debug\WebModel.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Debug\WebModel.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\obj\Debug\WebDal.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\obj\Debug\WebDal.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\bin\Debug\WebDal.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\bin\Debug\WebDal.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\bin\Debug\WebModel.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\bin\Debug\WebModel.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\obj\Debug\WebDal.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\WebManager源代码+数据库脚本最终版\WebDal\obj\Debug\WebDal.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\bin\Debug\WebDal.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\bin\Debug\WebDal.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\bin\Debug\WebModel.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\bin\Debug\WebModel.pdb
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\obj\Debug\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\obj\Debug\WebDal.dll
+D:\dyjh\单据原稿\编号：H1048   稿费650   时间：2.27  客服1\H1048原代码\WebDal\obj\Debug\WebDal.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\WebDal.dll
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\WebDal.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\WebModel.dll
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\WebModel.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebDal\obj\Debug\WebDal.csprojAssemblyReference.cache
+C:\Users\wuche\Desktop\M32 coursework\WebDal\obj\Debug\WebDal.csproj.CoreCompileInputs.cache
+C:\Users\wuche\Desktop\M32 coursework\WebDal\obj\Debug\WebDal.csproj.CopyComplete
+C:\Users\wuche\Desktop\M32 coursework\WebDal\obj\Debug\WebDal.dll
+C:\Users\wuche\Desktop\M32 coursework\WebDal\obj\Debug\WebDal.pdb
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\WebDal.dll.config
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\EntityFramework.dll
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\WebModel.dll.config
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\EntityFramework.xml
+C:\Users\wuche\Desktop\M32 coursework\WebDal\bin\Debug\EntityFramework.SqlServer.xml

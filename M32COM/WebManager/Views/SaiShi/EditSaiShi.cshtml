@@ -1,0 +1,132 @@
+﻿@model WebModel.SaiShi
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+    <link href="~/css/jedate.css" rel="stylesheet" />
+    <script src="~/js/jquery.jedate.js"></script>
+    <script src="~/ueditor/utf8-net/ueditor.config.js"></script>
+    <script src="~/ueditor/utf8-net/ueditor.all.min.js"></script>
+    <script src="~/ueditor/utf8-net/lang/zh-cn/zh-cn.js"></script>
+    <link href="~/js/webuploader-0.1.5/webuploader.css" rel="stylesheet" />
+    <script src="~/js/webuploader-0.1.5/webuploader.js"></script>
+    <link href="~/js/webuploader-0.1.5/basic.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="place">
+        <span>Position : </span>
+        <ul class="placeul">
+            <li><a href="#">Match Manger</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>Match Manger</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                @Html.Hidden("ID", Model.ID)
+                <li><label>MatchName<b>*</b></label><input id="Name" name="Name" type="text" class="dfinput" tag="empty" value="@Model.Name" msg="MatchName" /><i></i></li>
+                <li>
+                    <label>
+                        BeginTime<b>*</b>
+                    </label>
+                    <input class="dfinput datainp" id="BeginTime" name="BeginTime" type="text" placeholder="" tag="empty" msg="BeginTime" value="@(Model.BeginTime != DateTime.MinValue ? Model.BeginTime.ToString("yyyy-MM-dd") : DateTime.Now.ToString("yyyy-MM-dd"))" readonly=readonly />
+                </li>
+                <li>
+                    <label>
+                        EndTime<b>*</b>
+                    </label>
+                    <input class="dfinput datainp" id="EndTime" name="EndTime" type="text" placeholder="" tag="empty" msg="EndTime" value="@(Model.EndTime != DateTime.MinValue ? Model.EndTime.ToString("yyyy-MM-dd") : DateTime.Now.ToString("yyyy-MM-dd"))" readonly=readonly />
+                </li>
+                <li>
+                    <label>Match Abstract</label> 
+                    @*<input type="hidden" id="JianJie" name="JianJie" value="@Model.JianJie" tag="empty" msg="Match Abstract" />*@
+                    <textarea id="JianJie" name="JianJie" style="width: 700px;margin-left: 86px;height:200px;">@(Model.JianJie)</textarea>
+                </li>
+                <li>
+                    <label>Socre Rule</label><b>*</b>
+                    @*<input type="hidden" id="PinFenGuiZe" name="PinFenGuiZe" value="@Model.PinFenGuiZe" tag="empty" msg="Socre Rule" />*@
+                    <textarea id="PinFenGuiZe" name="PinFenGuiZe" style="width: 700px;margin-left: 86px;height:200px;">@(Model.PinFenGuiZe)</textarea>
+                </li>
+                <li class="imgclass">
+                    <label for="exampleInputFile" style="width:250px">Brochure（First）<b></b></label>
+                    <div style="margin-top:10px">
+                            <div id="img1" opath="img1" defaulturl="@Model.img1" class="myupload" filename="@Model.img1" fujianname="@Model.img1">Upload Image</div><i id="fu_1" style="display:inline-block;margin-top:32px;text-decoration: none;cursor:pointer;color: #FD0B4E;padding-left: 0px;font-weight:bold"></i>
+                    </div>
+                </li>
+                <li class="imgclass">
+                    <label for="exampleInputFile" style="width:250px">Brochure（Two）<b></b></label>
+                    <div style="margin-top:10px">
+                        <div id="img2" opath="img2" defaulturl="@Model.img2" class="myupload" filename="@Model.img2" fujianname="@Model.img2">Upload Image</div><i id="fu_1" style="display:inline-block;margin-top:32px;text-decoration: none;cursor:pointer;color: #FD0B4E;padding-left: 0px;font-weight:bold"></i>
+                    </div>
+                </li>
+                <li class="imgclass">
+                    <label for="exampleInputFile" style="width:250px">Brochure（Three）<b></b></label>
+                    <div style="margin-top:10px">
+                        <div id="img3" opath="img3" defaulturl="@Model.img3" class="myupload" filename="@Model.img3" fujianname="@Model.img3">Upload Image</div><i id="fu_1" style="display:inline-block;margin-top:32px;text-decoration: none;cursor:pointer;color: #FD0B4E;padding-left: 0px;font-weight:bold"></i>
+                    </div>
+                </li>
+                <li class="imgclass">
+                    <label for="exampleInputFile" style="width:250px">Brochure（Four）<b></b></label>
+                    <div style="margin-top:10px">
+                        <div id="img4" opath="img4" defaulturl="@Model.img4" class="myupload" filename="@Model.img4" fujianname="@Model.img4">Upload Image</div><i id="fu_1" style="display:inline-block;margin-top:32px;text-decoration: none;cursor:pointer;color: #FD0B4E;padding-left: 0px;font-weight:bold"></i>
+                    </div>
+                </li>
+                <li class="imgclass">
+                    <label for="exampleInputFile" style="width:250px">Brochure（Five）<b></b></label>
+                    <div style="margin-top:10px">
+                        <div id="img5" opath="img5" defaulturl="@Model.img5" class="myupload" filename="@Model.img5" fujianname="@Model.img5">Upload Image</div><i id="fu_1" style="display:inline-block;margin-top:32px;text-decoration: none;cursor:pointer;color: #FD0B4E;padding-left: 0px;font-weight:bold"></i>
+                    </div>
+                </li>
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="Confirm Save" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="Return" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<style>
+     .imgclass{
+        margin-bottom: 13px;
+        clear: both;
+        border-bottom: 1px dotted #C7C4C4;
+        padding-left: 10px;
+    }
+
+    .forminfo li label {
+        width: 86px;
+        line-height: 34px;
+        display: block;
+        float: left;
+        font-weight: bold;
+        color: #676262;
+    }
+
+    .mutilfujian .webuploader-pick {
+        background: #D3DFE2;
+    }
+</style>
+<script src="~/js/webuploader-0.1.5/form-Control.js"></script>
+<script type="text/javascript">
+    $(".select1").uedSelect({
+        width: 345
+    });
+    $("#BeginTime").jeDate({
+        onClose: false,
+        format: "YYYY-MM-DD",
+        isTime: true
+    });
+    $("#EndTime").jeDate({
+        onClose: false,
+        format: "YYYY-MM-DD",
+        isTime: true
+    });
+    var ue1 = UE.getEditor('PinFenGuiZe');
+    var ue2 = UE.getEditor('JianJie');
+    $("#savebtn").click(function () {
+        $.yanzheng("/SaiShi/EditSaiShiForm", "#form1", "/SaiShi/Index");
+	})
+</script>

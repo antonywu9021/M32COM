@@ -1,0 +1,38 @@
+﻿@model WebModel.Role
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+
+<body>
+
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">权限管理</a></li>
+            <li><a href="#">设置</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>权限基本信息</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                @Html.Hidden("ID", Model.ID)
+                <li><label>权限名称</label><input id="Name" name="Name" type="text" class="dfinput" tag="empty" value="@Model.Name" msg="权限名称" /><i></i></li>
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="确认保存" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="返回" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $("#savebtn").click(function () {
+        $.yanzheng("/Role/EditRoleForm", "#form1", "/Role/Index");
+	})
+</script>

@@ -1,0 +1,75 @@
+﻿@model List<WebModel.ShiJuan>
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+        <title>@(ViewBag.Title)-首页</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" href="~/phone/fonts/iconfont.css" />
+        <link rel="stylesheet" href="~/phone/css/font.css" />
+        <link rel="stylesheet" type="text/css" href="~/phone/css/indexstyle.css">
+        <link rel="stylesheet" href="~/phone/css/mui.min.css" />
+        <script src="~/phone/js/jquery-1.8.3.min.js"></script>
+        <script>
+		$(document).ready(function(){
+			//$(".prospecl ul").hide();
+			//$(".prospecl .title").click(function(){
+
+			//	if ($(this).next().css('display') == "none") {
+            //    //展开未展开
+            //       $('.prospecl').children('ul').slideUp(300);
+			//	   $(this).next('ul').slideDown();
+			//	   $(this).parent('.prospecl').children().children("i").html("&#xe607;").siblings('.prospecl').children().children("i").html("&#xe617;");
+            //    }else{
+            //    //收缩已展开
+			//		$(this).next('ul').slideUp(300);
+			//		$(this).children("i").html("&#xe617;");
+            //   }
+			//	return false;
+			//});
+			$("span[id^=dati_]").click(function () {
+			    var id = $(this).attr("id").split("_")[1];
+			    location.href = "/PhoneDaTi/Index?pid="+id;
+			})
+		});
+        </script>
+    </head>
+    <body>
+        <div class="top" style="border-bottom:2px solid #006c2e;">
+            <img width="54px" height="53px" src="~/phone/img/logo.png" style="position: absolute; left:45%;">
+            <div style="float:right;margin-right:10px;"><a href="/PhoneLogin/LoginOut">退出</a></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper" style="position:relative;">
+                <div class="swiper-slide" style="width:100%;">
+
+                </div>
+            </div>
+        </div>
+        <!-- banner图结束 -->
+
+        <div class="prospecl">
+            <div class="title"><i class="iconfont" style="font-size:20px;color:#ffc231;"></i>&nbsp;&nbsp;问卷调查</div>
+            <ul class="protips" style="display: block;">
+                @foreach (var mm in Model)
+               {
+                    <li><a href="/home/KaoShiMaxResult?id=@mm.ID" title="@mm.Title"><span>@(WebManager.DAConfig.ReplaceHtmlTag(mm.Title,18))</span></a>
+                     @if (mm.LimitCnt > mm.cnt && mm.Etime<0)
+                     {
+                       <span id="dati_@mm.ID" style="border:1px solid #157b42; background:#157b42;color:#fff;border-radius:3px;padding:2px 2px">答题</span>
+                     }
+                     else
+                     {
+                        <span   style="border:1px solid #F72F2F; background:#F72F2F;color:#fff;border-radius:3px;padding:2px 2px">已结束</span>
+                     }
+                </li>
+                }
+            </ul>
+        </div>
+        <!-- 右侧菜单 -->
+        <script src="~/phone/js/mui.min.js"></script>
+    </body>
+</html>

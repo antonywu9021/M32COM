@@ -1,0 +1,48 @@
+﻿@*@model Tuple<List<WebModel.News>,List<WebModel.News>,List<WebModel.News>>*@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+    <link rel="stylesheet" href="~/css/css.css" />
+    <script src="~/js/jquery.js"></script>
+</head>
+<body>
+
+    <div class="place">
+        <span>Position : </span>
+        <ul class="placeul">
+            <li><a href="#">HomePage</a></li>
+        </ul>
+    </div>
+
+    <div class="mainindex">
+
+
+        <div class="welinfo">
+            <span><img src="../images/sun.png" alt="" /></span>
+            <b>Hellow&nbsp;<font style="color:#ff0000">@(WebManager.DAConfig.MyUser().UserName)</font></b> 
+             
+        </div>
+ 
+        <div class="xline"></div>
+    </div>
+    <script>
+       $(document).ready(function() {
+
+            $(".no-notice").each(function() {
+                var a = $(this).siblings("li").length;
+                if (a == 0) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+       });
+    </script>
+</body>
+
+</html>

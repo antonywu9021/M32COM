@@ -1,0 +1,57 @@
+﻿@model List<WebModel.Department>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+<body>
+
+    <div class="place">
+        <span>Position : </span>
+        <ul class="placeul">
+            <li>SocreManage</li>
+        </ul>
+    </div>
+
+    <div class="rightinfo">
+        <div class="formtitle"><span>Socre Result</span></div>
+        <div id="list">
+            <table class="tablelist">
+                <thead>
+                    <tr>
+                        <th>MatchName</th>
+                        <th>Group</th>
+                        <th>Participants </th>
+                        <th>Score</th>
+                        <th style="width:350px">Operation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var mm in Model)
+                   {
+                        <tr>
+                            <td>@mm.SaiShiName</td>
+                            <td>@mm.Name</td>
+                            <td>@mm.Users</td>
+                            <td>@mm.Score</td>
+                            <td>
+                                @if (mm.IsAblePinFen)
+                                {
+                                  <a href="/SaiShi/PinFenForm?id=@mm.ID" class="tablelink" title="Score"><i class="iconfont">&#xf014f;</i>Score</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+$('.tablelist tbody tr:odd').addClass('odd');
+</script>

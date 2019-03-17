@@ -1,0 +1,121 @@
+.modal-btn{
+    float: right;
+    display: block;
+    font-size: 26px;
+    border:0;
+    color:#bce8f1;
+}
+.modal-btn:hover{
+	color:#bce8f1;
+	background: #ebf3ee;
+}
+.modal-btn:nth-child(2){
+	border-radius: 0;
+}
+.modal-dialog{
+	 width:92%;
+}
+.modal-header{
+	width:100%;
+	padding:0;
+}
+.modal-header .modal-title{
+	padding:15px;
+}
+.modal-header:hover{
+	cursor:move;
+}
+.modal-body,.modal-footer{
+	min-height: 100px;
+}
+.row{
+	width:98%;
+}
+.row > div{
+	border:1px solid #bfabab;
+	margin-left: -1px;
+	height:550px;
+}
+.row > div > h3{
+	text-align: center;
+}
+#setBtn{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+ul{
+	padding-left:20px;
+}
+li{
+	list-style-type:none;
+	line-height:32px;
+	
+}
+.myli div{border-bottom:1px dotted #dadada;}
+.tree-node:hover{
+	cursor:pointer;
+}
+a{
+	color:#000;
+}
+a:hover{
+	text-decoration: none;
+	color:#000;
+}
+ul li i:first-child{
+	margin:0 3px;
+}
+.tree-table tr td span{
+	margin:5px 10px;
+}
+.tree-table:hover{
+	cursor:pointer;
+}
+.tree-table{
+	text-align: center;
+	height:100%;
+	border-color: #bdacac;
+	font-size: 8px;
+}
+.t-select{
+	background: #dee7ea;
+}
+.t-default{
+	background: #b1d6e8;
+	font-weight: bold;
+}
+.tree-table .t-leaf{
+	padding:5px 0;
+}
+.tree-table .td-title{
+	padding:3px 0;
+	font-weight: bold;
+}
+#select_tree_table table{
+	background: #dee7ea;
+}
+
+#tree_data{
+	word-wrap:break-word;
+}
+.checkbox_all{float:left;position: absolute;top: 5px;left: 0px;}
+.li_all{clear:both;position:relative;padding-left:15px}
+.myli{clear:both}
+.div_item{float:left;width:160px}
+.anniu{margin-left:8px}
+.anniu1{margin-left:5px}
+.tubiao{margin-right:45}
+.div1{clear:both;width:200px;float:left;margin-left:13px}
+.div2{/*clear:both;*/width:180px;float:left;margin-left:20px}
+.div3{margin-right:5px;color:rgb(122, 65, 158)}
+.div4 {margin-left: 13px;}
+.span{margin-left:3px}
+.labeltt  {cursor:pointer;font-weight:100;font-size:12px}
+.labeltt i {font:"Microsoft Yahei",Tahoma, Helvetica, Arial, "SimSun", sans-serif ; font-style:normal;width:9px;text-align:center;line-height:12px;color:#fff;vertical-align:middle;margin:-2px 6px 1px 3px;border:#2B8A55 1px solid;padding:0px 1px 0px 3px}
+.labeltt input[type="checkbox"],input[type="radio"] {display:none;}
+.labeltt input[type="radio"] + i {border-radius:7px;}
+.labeltt input[type="checkbox"]:checked + i,input[type="radio"]:checked + i {background:#2B8A55/*#14A5DC;*/}
+.labeltt input[type="checkbox"]:disabled + i,input[type="radio"]:disabled + i {border-color:#ccc;}
+.labeltt input[type="checkbox"]:checked:disabled + i,input[type="radio"]:checked:disabled + i {background:#ccc;}
+.myul{margin-top:20px;padding-left:8px}

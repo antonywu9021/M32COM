@@ -1,0 +1,88 @@
+﻿@model  List<WebModel.Button>
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>无标题文档</title>
+        @Styles.Render("~/bundles/css")
+        @Styles.Render("~/iconfont/css")
+        @Scripts.Render("~/bundles/js")
+        @Styles.Render("~/fonts/treecss")
+        @Scripts.Render("~/bundles/treejs")
+    </head>
+    <body>
+
+        <div class="place">
+            <span>位置：</span>
+            <ul class="placeul">
+                <li><a href="#">菜单</a></li>
+                <li><a href="#">菜单关联按钮</a></li>
+            </ul>
+        </div>
+
+        <div class="rightinfo">
+            <div class="tools">
+                <ul class="toolbar">
+                    @*<li class="click" onclick="javascript: location.href = '/Role/EditRole?id=0'"><span><img src="~/images/t01.png" /></span>添加</li>*@
+                    @*<li class="click"><span><img src="~/images/t02.png" /></span>修改</li>
+                    <li><span><img src="~/images/t03.png" /></span>删除</li>
+                    <li><span><img src="~/images/t04.png" /></span>统计</li>*@
+                </ul>
+                <ul class="toolbar1">
+                    <li><span><img src="~/images/t05.png" /></span>设置</li>
+                </ul>
+            </div>
+            <div id="list">
+                <div class="widget-body  am-fr" style="margin-left:2%">
+                    <div class="tm-u-lg-11 am-cf">
+                        <div class="tm-fr">
+                            <div id="default_tree">
+                                <ul>
+                                    @foreach(var mm in Model){
+                                        <li class="myli">
+                                            <a class="tree-node">
+                                                <div class="div1">
+                                                    <i class="fa fa-file-text-o div3"></i>
+                                                    <label class="labeltt">
+                                                        <input type="checkbox" id="checkmenu_@mm.ID" @(mm.IsChecked ? Html.Raw("checked='true'") : Html.Raw(""))/>
+                                                        <i>
+                                                            ✓
+                                                        </i>
+                                                        @mm.Name
+                                                    </label>
+                                                    <br />
+                                                </div>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="forminfo" style="margin-top:50px;margin-left:3%">
+                <li><input name="" type="button" id="savebtn" class="btn" value="确认保存" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="返回" /></li>
+            </ul>
+        </div>
+    </body>
+</html>
+<script>
+    var obj = ".tree-node";
+    load(obj);
+    nodeClick($('#default_tree'));
+    $("#savebtn").click(function () {
+        var $array = $("[id^=checkmenu_]");
+        var str = "";
+        for (var i = 0; i < $array.length; i++) {
+            str += $array.eq(i).prop("checked") ? $array.eq(i).attr("id").split("_")[1] + "," : "";
+        }
+        if (str == "") {
+            $.alert("关联按钮不能为空！");
+        } else {
+            str = str.substr(0, str.length - 1);
+            $.setcommstr("/menu/menurelationbuttonform", '{"menuid":"' +@(ViewBag.MenuID) +'","str":"' + str + '"}', "/menu/index");
+        }
+    })
+  
+</script>

@@ -1,0 +1,47 @@
+﻿@model WebManager.MyPageInfo<WebModel.ShiTi> 
+    <table class="tablelist">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>试题名称</th>
+                <th>试题类型</th>
+                <th>选项A</th>
+                <th>选项B</th>
+                <th>选项C</th>
+                <th>选项D</th>
+                <th>正确答案</th>
+                <th>每题得分</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mm in Model.List)
+            {
+                <tr>
+                    <td>@mm.ID</td>
+                    <td>@mm.Title</td>
+                    <td>@mm.TypesName</td>
+                    <td>@mm.ItemA</td>
+                    <td>@mm.ItemB</td>
+                    <td>@mm.ItemC</td>
+                    <td>@mm.ItemD</td>
+                    <td>@mm.CorrectItem</td>
+                    <td>@mm.PerScore</td>
+                    <td>
+                       @if (mm.Status == 0)
+                       {
+                         <a href="/ShiTi/EditShiTi?pid=@(mm.ShiJuanID)&id=@mm.ID" class="tablelink" title="编辑"><i class="iconfont">&#xf014f;</i>编辑</a>
+                         <a onclick="$.del('/ShiTi/DelShiTi?id=@mm.ID','/ShiTi/Index?id=@mm.ShiJuanID')" class="tablelink" title="删除"><i class="iconfont">&#xf029a;</i>删除</a>
+                       }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PageLinks(Model.Page, m => "$.getpage('" + Model.Page.ReturnUrl + "','','#list')")
+    <script type="text/javascript">
+$('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+
+
+

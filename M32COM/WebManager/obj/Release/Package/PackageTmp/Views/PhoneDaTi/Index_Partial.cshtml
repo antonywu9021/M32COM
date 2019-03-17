@@ -1,0 +1,38 @@
+﻿@model  WebModel.ShiTi  
+<div class="bd" id="bd12">
+    <div class="test" style="margin-top:10px;">
+        <div class="test_con">
+        @if (ViewBag.DaTiStatus == "0")
+        {
+            <div class="item">
+                <div class="tit">
+                    <span>第 @ViewBag.Num 题</span>
+                    <input type="hidden" id="shititype" name="shititype" value="@Model.Types" />  
+                    <input type="hidden" id="1" value="1" />@(Model.Title) &nbsp; (@Model.TypesName)
+                </div>
+                <div class="item_con">
+                    <div class="answ">
+                        <input type="hidden" name="ID" dirname="ID" value="@ViewBag.ID" />
+                        <input type="hidden" name="PID" dirname="PID" value="@ViewBag.PID" />
+                        <ul>
+                            <li class='options'  id="item_A">A：<i>@Model.ItemA</i></li>
+                            <li class='options'  id="item_B">B：<i>@Model.ItemB</i></li>
+                            <li class='options'  id="item_C">C：<i>@Model.ItemC</i></li>
+                            <li class='options'  id="item_D">D：<i>@Model.ItemD</i></li>
+                        </ul>
+                    </div>
+                </div><!--item_con结束-->
+            </div><!--item结束-->
+        }
+        else
+        {
+            <div class="item">
+                <div class="tit">
+                    <span>答题结束</span>
+                </div>
+            </div>
+        }
+      </div><!--test_con结束-->
+    </div><!--test结束-->
+</div>
+<div class="clear"></div>

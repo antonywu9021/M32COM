@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+    <script type="text/javascript">
+$(function(){
+	 
+	$(".nav li a").click(function(){
+		$(".nav li a.selected").removeClass("selected")
+		$(this).addClass("selected");
+	})
+	$("#pwd").click(function () {
+	    $('#rightFrame', window.parent.document).attr("src", "/login/UpPwd");
+	})
+})
+    </script>
+
+
+</head>
+
+<body style="background:url(../images/topbg.gif) repeat-x;">
+
+    <div class="topleft">
+        @*<a><img src="~/images/loginlogo.png" title="System HomePage" /></a>*@
+    </div>
+    <div class="topright">
+        <ul>
+            <li><span><img src="~/images/t02.png" title="Help" class="helpimg" style="height: 15px;" /></span><a style="cursor:pointer" id="pwd">Edit Pwd</a></li>
+            <li><a href="/login/LoginOut" target="_parent">Login Out</a></li>
+        </ul>
+
+        <div class="user">
+            <span>@(WebManager.DAConfig.MyUser().UserName)</span>
+            <i></i>
+            <b style="cursor:pointer">0</b>
+        </div>
+    </div>
+
+</body>
+</html>
+<script>
+    $("#count").click(function () {
+        parent.location.href = "/admin/index?urlparam=" + escape("/news/index?type=1&times=" + new Date().getMilliseconds());
+    })
+</script>

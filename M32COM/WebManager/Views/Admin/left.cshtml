@@ -1,0 +1,75 @@
+﻿@{ 
+    var userType = WebManager.DAConfig.MyUser().UserType;
+}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+<body style="background:#f0f9fd;">
+    <div class="lefttop"><span></span>Navigation</div>
+    <dl class="leftmenu">
+        <dd>
+            <div class="title">
+                <span><img src="~/images/leftico01.png" /></span>
+                ManageInfoMation
+            </div>
+            <ul class="menuson">
+                <li class="active"><cite></cite><a href="/admin/right" target="rightFrame">HomePage</a><i></i></li>
+                 
+                @if (userType == 0)
+                {
+                    <li><cite></cite><a href="/SaiShi/Index" target="rightFrame">Match Manger</a><i></i></li>
+                    <li><cite></cite><a href="/Department/Index" target="rightFrame">GroupManage</a><i></i></li>
+                    <li><cite></cite><a href="/User/Index" target="rightFrame">UserManage</a><i></i></li>
+                }
+                @if (userType == 1)
+                {
+                    <li><cite></cite><a href="/SaiShi/Index" target="rightFrame">Match Manger</a><i></i></li>            
+                }
+            </ul>
+        </dd>
+    </dl>
+</body>
+
+</html>
+<script type="text/javascript">
+$(function(){
+    load();
+    function load() {
+        if (parent.location.href.indexOf("urlparam=") > 0) {
+            $(".menuson li").removeClass("active");
+            var mm = unescape(parent.location.href.split("urlparam=")[1]);
+            mm = mm.split("&times=")[0];
+            mm=mm.toLowerCase();
+            var $array = $(".menuson a");
+            for (var i = 0; i < $array.length; i++) {
+                if ($array.eq(i).attr("href") == mm){
+                    $array.eq(i).parent().parent().show();
+                    $array.eq(i).parent().addClass("active").show();
+                    break;
+                }
+            }
+            $("#rightFrame", parent.document).attr("src", mm);
+        }
+    }
+    $(".menuson li").click(function () {
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})
+</script>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Match Socre System </title>
+    <link href="~/css/stylelogin.css" rel="stylesheet" />
+    <link href="~/css/weui-min.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/js")
+    <script language="javascript">
+	$(function(){
+	    $('.loginbox').css({ 'position': 'absolute', 'left': ($(window).width() - 692) / 2 });
+	    $('.login-title').css({ 'margin': (($(window).height() -440)/2) + 'px auto 25px auto' });
+	    $(window).resize(function(){
+	        $('.loginbox').css({ 'position': 'absolute', 'left': ($(window).width() - 692) / 2 });
+	        $('.login-title').css({ 'margin': (($(window).height() - 440) / 2) + 'px auto 25px auto' });
+    })
+});
+    </script>
+    <style>
+        .login-title{font-size:24px; text-align:center;font-size36px;color:#fff;font-family:微软雅黑;text-shadow:#555 2px 2px 5px;letter-spacing:2px}
+    </style>
+</head>
+<body style="background-color:#1c77ac; background-image:url(/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
+    <div id="mainBody">
+        <div id="cloud1" class="cloud"></div>
+        <div id="cloud2" class="cloud"></div>
+    </div>
+    <div class="logintop">
+        <span>Match Socre System </span>
+    </div>
+    <div class="loginbody">
+        <div class="login-title">Match Socre System </div>
+        @*<span class="systemlogo"></span>*@
+        <form id="form1">
+            <div class="loginbox">
+                <ul>
+                    <li><input id="UserName" name="UserName" type="text" class="loginuser" placeholder="UserName" tag="zhanghao" msg="UserName" /></li>
+                    <li><input id="UserPassword" name="UserPassword"   type="password" class="loginpwd" placeholder="Password" msg="Password" tag="mima" />
+                    <li><input name="" type="button" class="loginbtn" id="denglu" value="Login" />@*<input name="" type="button" class="loginbtn" id="zhuce" value="Register" />*@</li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
+<script>
+    var oForm = document.getElementById('form1');
+    var oUser = document.getElementById('UserName');
+    var oPswd = document.getElementById('UserPassword');
+    var oRemember = document.getElementById('remember');
+    load();
+    function load() {
+        if ($("#rightFrame", parent.document).length != 0) {
+            parent.location.href = "/login/index";
+        }
+        if ($("#rightFrame", parent.parent.document).length != 0) {
+            parent.parent.location.href = "/login/index";
+        }
+    }
+    $(document).keyup(function (event) {
+        if (event.keyCode == 13) {
+            $.yanzheng("/login/loginform", "#form1", "/admin/index");
+        }
+    })
+    $("#denglu").click(function () {
+        $.yanzheng("/login/loginform", "#form1", "/admin/index");
+    })
+    $("#zhuce").click(function () {
+        location.href = "/login/register";
+    })
+    
+</script>

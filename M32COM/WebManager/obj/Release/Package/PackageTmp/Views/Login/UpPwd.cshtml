@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/select.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/weui-min.css" rel="stylesheet" />
+    <script src="~/js/jquery-1.9.1.min.js"></script>
+    <script src="~/js/select-ui.min.js"></script>
+    <script src="~/js/msgmanger.js"></script>
+</head>
+
+<body>
+
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">密码修改</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>基本信息</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                <li><label>原密码<b>*</b></label><input id="OldUserPassword" name="OldUserPassword" type="password" class="dfinput" tag="mima" msg="原密码" /><i></i></li>
+                <li><label>新密码<b>*</b></label><input id="UserPassword" name="UserPassword" type="password" class="dfinput" tag="mima" msg="新密码" /><i></i></li>
+                <li><label>确认密码<b>*</b></label><input id="confirmppwd" name="confirmppwd" type="password" class="dfinput" tag="equ(UserPassword,confirmppwd)" msg="两次输入密码不一致" /><i></i></li>
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="确认保存" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(".select1").uedSelect({
+        width: 345
+    });
+    $("#savebtn").click(function () {
+        $.yanzheng("/login/UpPwdForm", "#form1", "/admin/right");
+	})
+</script>

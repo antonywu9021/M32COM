@@ -1,0 +1,70 @@
+﻿@model WebModel.User
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+
+<body>
+
+    <div class="place">
+        <span>Position : </span>
+        <ul class="placeul">
+            <li><a href="#">User Manage</a></li>
+            <li><a href="#">Set Up</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>User Basic InfoMation</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                @Html.Hidden("ID",Model.ID)
+                <li>
+                    <label>Role<b>*</b></label>
+                    <div class="vocation">
+                        @Html.DropDownList("UserType", (List<SelectListItem>)ViewData["roleelect"], new { @class = "select1" })
+                    </div>
+                </li>
+                <li><label>UserName<b>*</b></label><input id="UserName" name="UserName" type="text" class="dfinput" tag="zhanghao" value="@Model.UserName" msg="UserName" @(Model.ID != 0 ? Html.Raw("readonly='readonly'") : Html.Raw("")) /><i></i></li>
+                @if (Model.ID==0) { 
+                   <li><label>Password<b>*</b></label><input id="UserPassword" name="UserPassword" type="password" class="dfinput" tag="mima" msg="Password" /><i></i></li>
+                }
+                <li><label>True Name<b>*</b></label><input id="TrueName" name="TrueName" type="text" class="dfinput" tag="empty" value="@Model.TrueName" msg="True Name" /><i></i></li>
+                <li>
+                    <label>Match </label>
+                    <div class="vocation">
+                        @Html.DropDownList("SaiShiID", (List<SelectListItem>)ViewData["saishiselect"], new { @class = "select1" })
+                    </div>
+                </li>
+                <li>
+                    <label>Group</label>
+                    <div class="vocation">
+                        @Html.DropDownList("DepartmentID", (List<SelectListItem>)ViewData["menuselect"], new { @class = "select1" })
+                    </div>
+                </li>
+                <li><label>Phone<b>*</b></label><input id="Phone" name="Phone" type="text" class="dfinput" tag="phone" value="@Model.Phone" msg="Phone" /><i></i></li>
+                <li><label>Email</label><input id="Email" name="Email" type="text" class="dfinput"   value="@Model.Email" /><i></i></li>
+                <li><label>Age</label><input id="Age" name="Age" type="text" class="dfinput" value="@Model.Age" /><i></i></li>
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="Confirm Save" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="Return" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".select1").uedSelect({
+            width: 345
+        });
+        $("#savebtn").click(function () {
+            $.yanzheng("/user/edituserform", "#form1", "/user/index");
+        })
+    });
+</script>

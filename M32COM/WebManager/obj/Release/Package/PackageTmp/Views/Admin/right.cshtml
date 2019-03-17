@@ -1,0 +1,152 @@
+﻿@*@model Tuple<List<WebModel.News>,List<WebModel.News>,List<WebModel.News>>*@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+    <link rel="stylesheet" href="~/css/css.css" />
+    <script src="~/js/jquery.js"></script>
+</head>
+<body>
+
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+        </ul>
+    </div>
+
+    <div class="mainindex">
+
+
+        <div class="welinfo">
+            <span><img src="../images/sun.png" alt="天气" /></span>
+            <b>您好&nbsp;<font style="color:#ff0000">@(WebManager.DAConfig.MyUser().UserName)</font>，欢迎使用信息管理系统</b> 
+             
+        </div>
+ 
+        <div class="xline"></div>
+    </div>
+    @*<div class="contaier">
+        <div class="new-box">
+            <div class="out-border">
+                <div class="new-box-title">
+                    <div class="icon-box"><img src="/Images/n1.png" alt="" /></div>
+                    <div class="text-box">通知公告</div>
+                    @if (Model.Item1.Count > 0)
+                    {
+                        <a href="/News/NewsList?type=@Model.Item1[0].Pid" class="more">more</a>
+                    }
+                </div>
+                <ul class="news-list">
+                    @{
+                        if (Model.Item1.Count > 0)
+                        {
+                            foreach (var mm in Model.Item1)
+                            {
+                                <li>
+                                    <a href="/News/NewsDetail?id=@mm.ID">
+                                        <div class="text-box">@mm.Title</div>
+                                        <div class="date-box">@mm.CreateTime.ToString("yyyy-MM-dd")</div>
+                                    </a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="no-notice">
+                                <img src="/Images/tit.png" alt="" /><span>暂无该类信息</span>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="new-box">
+            <div class="out-border">
+                <div class="new-box-title">
+                    <div class="icon-box"><img src="/Images/n2.png" alt="" /></div>
+                    <div class="text-box">法律法规</div>
+                    @if(Model.Item2.Count > 0){
+                       <a href="/News/NewsList?type=@Model.Item2[0].Pid" class="more">more</a>
+                    }
+                </div>
+                <ul class="news-list">
+                    @{
+                        if (Model.Item2.Count > 0)
+                        {
+                            foreach (var mm in Model.Item2)
+                            {
+                                <li>
+                                    <a href="/News/NewsDetail?id=@mm.ID">
+                                        <div class="text-box">@mm.Title</div>
+                                        <div class="date-box">@mm.CreateTime.ToString("yyyy-MM-dd")</div>
+                                    </a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="no-notice">
+                                <img src="/Images/tit.png" alt="" /><span>暂无该类信息</span>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="new-box">
+            <div class="out-border">
+                <div class="new-box-title">
+                    <div class="icon-box"><img src="/Images/n3.png" alt="" /></div>
+                    <div class="text-box">培训动态</div>
+                    @if (Model.Item3.Count > 0)
+                    {
+                        <a href="/News/NewsList?type=@Model.Item3[0].Pid" class="more">more</a>
+                    }
+                </div>
+                <ul class="news-list">
+                    @{
+                        if (Model.Item3.Count > 0)
+                        {
+                            foreach (var mm in Model.Item3)
+                            {
+                                <li>
+                                    <a href="/News/NewsDetail?id=@mm.ID">
+                                        <div class="text-box">@mm.Title</div>
+                                        <div class="date-box">@mm.CreateTime.ToString("yyyy-MM-dd")</div>
+                                    </a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="no-notice">
+                                <img src="/Images/tit.png" alt="" /><span>暂无该类信息</span>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>*@
+
+    <script>
+       $(document).ready(function() {
+
+            $(".no-notice").each(function() {
+                var a = $(this).siblings("li").length;
+                if (a == 0) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+       });
+    </script>
+</body>
+
+</html>

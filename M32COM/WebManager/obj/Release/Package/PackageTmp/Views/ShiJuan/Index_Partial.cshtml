@@ -1,0 +1,43 @@
+﻿@model WebManager.MyPageInfo<WebModel.ShiJuan> 
+    <table class="tablelist">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>试卷名称</th>
+                <th>开始时间</th>
+                <th>结束时间</th>
+                <th style="width:340px">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mm in Model.List)
+            {
+                <tr>
+                    <td>@mm.ID</td>
+                    <td>@mm.Title</td>
+                    <td>@mm.CreateTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@mm.EndTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>
+                        @if (mm.Status == 0)
+                        {
+                            <a href="/ShiJuan/EditShiJuan?id=@mm.ID" class="tablelink" title="编辑试卷"><i class="iconfont">&#xf014f;</i>编辑试卷</a>
+                            <a href="/ShiTi/Index?id=@mm.ID" class="tablelink" title="管理试题"><i class="iconfont">&#xf014f;</i>管理试题</a>
+                            <a onclick="$.del('/ShiJuan/FaBuShiJuan?id=@mm.ID','/ShiJuan/Index','','试卷一经发布，不允许进行任何修改，您确定如此操作吗？')" class="tablelink" title="发布试题"><i class="iconfont">&#xf014f;</i>发布试题</a>
+                            <a onclick="$.del('/ShiJuan/DelShiJuan?id=@mm.ID','/ShiJuan/Index')" class="tablelink" title="删除"><i class="iconfont">&#xf029a;</i>删除试卷</a>
+                        }
+                        else
+                        {
+                            <a href="/ShiTi/Index?id=@mm.ID" class="tablelink" title="查看试题"><i class="iconfont">&#xf014f;</i>查看试题</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PageLinks(Model.Page, m => "$.getpage('" + Model.Page.ReturnUrl + "','','#list')")
+    <script type="text/javascript">
+$('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+
+
+

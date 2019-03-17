@@ -1,0 +1,103 @@
+﻿@model WebModel.ShiTi
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+    <link href="~/css/jedate.css" rel="stylesheet" />
+    <script src="~/js/jquery.jedate.js"></script>
+</head>
+<body>
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">试题管理</a></li>
+            <li>@ViewBag.Name</li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>试卷信息</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                @Html.Hidden("ID", Model.ID)
+                <li>
+                    <input type="hidden" name="ShiJuanID" value="@ViewBag.Pid" />
+                <label>试题名称<b>*</b></label><input id="Title" name="Title" type="text" class="dfinput" tag="empty" value="@Model.Title" msg="试题名称" /><i></i></li>
+                <li>
+                    <label>试题类型<b>*</b></label>
+                    <div class="vocation">
+                        <select id="Types" name="Types" class="select1">
+                            <option value="-1">--请选择试题类型--</option>
+                            <option value="0" @(Model.Types==0 ? Html.Raw("selected='selected'"): Html.Raw(""))>单选题</option>
+                            <option value="1" @(Model.Types==1 ? Html.Raw("selected='selected'"): Html.Raw(""))>多选题</option>
+                        </select>
+                    </div>
+                </li>
+                <li style="position:relative"><label>选项A<b>*</b></label><input id="ItemA" name="ItemA" type="text" class="dfinput" tag="empty" value="@Model.ItemA" msg="选项A" /><input id="CheckItemA" name="CheckItem_A" type="checkbox" class="dfinput" style="width:21px;height:21px;position:absolute;top:5px;margin-left:10px"/></li>
+                <li style="position:relative"><label>选项B<b>*</b></label><input id="ItemB" name="ItemB" type="text" class="dfinput" tag="empty" value="@Model.ItemB" msg="选项B" /><input id="CheckItemB" name="CheckItem_B" type="checkbox" class="dfinput" style="width:21px;height:21px;position:absolute;top:5px;margin-left:10px"/></li>
+                <li style="position:relative"><label>选项C<b>*</b></label><input id="ItemC" name="ItemC" type="text" class="dfinput" tag="empty" value="@Model.ItemC" msg="选项C" /><input id="CheckItemC" name="CheckItem_C" type="checkbox" class="dfinput" style="width:21px;height:21px;position:absolute;top:5px;margin-left:10px"/></li>
+                <li style="position:relative"><label>选项D<b>*</b></label><input id="ItemD" name="ItemD" type="text" class="dfinput" tag="empty" value="@Model.ItemD" msg="选项D" /><input id="CheckItemD" name="CheckItem_D" type="checkbox" class="dfinput" style="width:21px;height:21px;position:absolute;top:5px;margin-left:10px"/></li>
+                <li style="position:relative"><label>正确答案<b>*</b></label><input id="CorrectItem" name="CorrectItem" type="text" class="dfinput"  readonly="readonly" tag="empty" value="@Model.CorrectItem" msg="正确答案" /></li>
+                <li style="position:relative"><label>每题得分<b>*</b></label><input id="PerScore" name="PerScore" type="text" class="dfinput" placeholder="例如每题2分，请填写 2，若未填写系统默认为 2 " tag="int" value="@(Model.PerScore==0? 2:Model.PerScore)" msg="每题得分" /><i>分</i></li>
+                <li style="position:relative"><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="确认保存" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="返回" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(".select1").uedSelect({
+        width: 345
+    });
+    if ($("#CorrectItem").val() != "") {
+        if ($("#CorrectItem").val().indexOf("A") >= 0) {
+            $("#CheckItemA").prop("checked", true);
+        }
+        if ($("#CorrectItem").val().indexOf("B") >= 0) {
+            $("#CheckItemB").prop("checked", true);
+        }
+        if ($("#CorrectItem").val().indexOf("C") >= 0) {
+            $("#CheckItemC").prop("checked", true);
+        }
+        if ($("#CorrectItem").val().indexOf("D") >= 0) {
+            $("#CheckItemD").prop("checked", true);
+        }
+    }
+    $("#Types").change(function () {
+        $("#CheckItemA").prop("checked", "");
+        $("#CheckItemB").prop("checked", "");
+        $("#CheckItemC").prop("checked", "");
+        $("#CheckItemD").prop("checked", "");
+        $("#CorrectItem").val("");
+    })
+    $("[name^=CheckItem_]").click(function () {
+        var str = "";
+        if ($("#Types").val() == "0") {
+            $("[name^=CheckItem_]").prop("checked", "");
+            $(this).prop("checked", true);
+            str = $("#CheckItemA").prop("checked") ? "A" : str;
+            str = $("#CheckItemB").prop("checked") ? "B" : str;
+            str = $("#CheckItemC").prop("checked") ? "C" : str;
+            str = $("#CheckItemD").prop("checked") ? "D" : str;
+        } else {
+            str += $("#CheckItemA").prop("checked") ? "A" : "";
+            str += $("#CheckItemB").prop("checked") ? "B" : "";
+            str += $("#CheckItemC").prop("checked") ? "C" : "";
+            str += $("#CheckItemD").prop("checked") ? "D" : "";
+        }
+        $("#CorrectItem").val(str);
+    })
+    $("#savebtn").click(function () {
+        if ($("#Types").val() == "1") {
+            if ($("#CorrectItem").val().length < 2) {
+                $.alert("多选题至少两个答案！");
+                return;
+            }
+        }
+        $.yanzheng("/ShiTi/EditShiTiForm", "#form1", "/ShiTi/Index?id=@ViewBag.Pid");
+	})
+</script>

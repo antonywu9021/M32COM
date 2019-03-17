@@ -1,0 +1,32 @@
+E:\WebManager\WebDal\bin\Release\WebDal.dll
+E:\WebManager\WebDal\bin\Release\WebDal.pdb
+E:\WebManager\WebDal\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\WebManager\WebDal\bin\Release\WebModel.dll
+E:\WebManager\WebDal\bin\Release\WebModel.pdb
+E:\WebManager\WebDal\obj\Release\WebDal.csprojResolveAssemblyReference.cache
+E:\WebManager\WebDal\obj\Release\WebDal.dll
+E:\WebManager\WebDal\obj\Release\WebDal.pdb
+E:\dyjh\WebManager\WebDal\bin\Release\WebDal.dll
+E:\dyjh\WebManager\WebDal\bin\Release\WebDal.pdb
+E:\dyjh\WebManager\WebDal\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\dyjh\WebManager\WebDal\bin\Release\WebModel.dll
+E:\dyjh\WebManager\WebDal\bin\Release\WebModel.pdb
+E:\dyjh\WebManager\WebDal\obj\Release\WebDal.csprojResolveAssemblyReference.cache
+E:\dyjh\WebManager\WebDal\obj\Release\WebDal.dll
+E:\dyjh\WebManager\WebDal\obj\Release\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Release\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Release\WebDal.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Release\WebModel.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\bin\Release\WebModel.pdb
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\obj\Release\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\obj\Release\WebDal.dll
+D:\dyjh\单据原稿\J1549  1000元医务教学管理系统\WebManager\WebDal\obj\Release\WebDal.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Release\WebDal.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Release\WebDal.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Release\WebModel.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\bin\Release\WebModel.pdb
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\obj\Release\WebDal.csprojResolveAssemblyReference.cache
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\obj\Release\WebDal.dll
+D:\dyjh\单据原稿\题目 答题系统 售后技术2-4 8月15交货  报价2000 C# sql2008\WebManager\WebDal\obj\Release\WebDal.pdb

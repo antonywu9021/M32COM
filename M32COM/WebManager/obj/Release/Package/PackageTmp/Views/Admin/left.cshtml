@@ -1,0 +1,78 @@
+﻿@{ 
+    var userType = WebManager.DAConfig.MyUser().UserType;
+}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+<body style="background:#f0f9fd;">
+    <div class="lefttop"><span></span>导航菜单</div>
+    <dl class="leftmenu">
+        <dd>
+            <div class="title">
+                <span><img src="~/images/leftico01.png" /></span>
+                管理信息
+            </div>
+            <ul class="menuson">
+                <li class="active"><cite></cite><a href="/admin/right" target="rightFrame">首页</a><i></i></li>
+                 
+                @if (userType == 0)
+                {
+                    <li><cite></cite><a href="/User/Index" target="rightFrame">学员信息管理</a><i></i></li>
+                    <li><cite></cite><a href="/ShiJuan/Index" target="rightFrame">试卷管理</a><i></i></li>
+                    <li><cite></cite><a href="/TouPiaoMain/Index" target="rightFrame">查看学员成绩</a><i></i></li>
+                }
+                else
+                {
+                    <li><cite></cite><a href="/User/Index" target="rightFrame">我的个人信息</a><i></i></li>
+                    <li><cite></cite><a href="/User/Index" target="rightFrame">我的答题结果</a><i></i></li>
+                }
+               
+            </ul>
+        </dd>
+    </dl>
+</body>
+
+</html>
+<script type="text/javascript">
+$(function(){
+    //导航切换
+    load();
+    function load() {
+        if (parent.location.href.indexOf("urlparam=") > 0) {
+            $(".menuson li").removeClass("active");
+            var mm = unescape(parent.location.href.split("urlparam=")[1]);
+            mm = mm.split("&times=")[0];
+            mm=mm.toLowerCase();
+            var $array = $(".menuson a");
+            for (var i = 0; i < $array.length; i++) {
+                if ($array.eq(i).attr("href") == mm){
+                    $array.eq(i).parent().parent().show();
+                    $array.eq(i).parent().addClass("active").show();
+                    break;
+                }
+            }
+            $("#rightFrame", parent.document).attr("src", mm);
+        }
+    }
+    $(".menuson li").click(function () {
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})
+</script>

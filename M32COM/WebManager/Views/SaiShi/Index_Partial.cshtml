@@ -1,0 +1,56 @@
+﻿@model WebManager.MyPageInfo<WebModel.SaiShi> 
+@{ 
+    WebModel.User User = WebManager.DAConfig.MyUser();
+}
+    <table class="tablelist">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>MatchName</th>
+                <th>BeginTime</th>
+                <th>EndTime</th>
+                <th>Match Abstract</th>
+                <th>Socre Rule</th>
+                <th style="width:400px">Operation</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mm in Model.List)
+            {
+                <tr>
+                    <td>@mm.ID</td>
+                    <td>@mm.Name</td>
+                    <td>@mm.BeginTime.ToString("yyyy-MM-dd")</td>
+                    <td>@mm.EndTime.ToString("yyyy-MM-dd")</td>
+                    <td>@Html.Raw(mm.JianJie)</td>
+                    <td>@Html.Raw(mm.PinFenGuiZe)</td>
+                    <td>
+                        @if (User.UserType==0)
+                        {
+                            <a href="/SaiShi/EditSaiShi?id=@mm.ID" class="tablelink" title="EditMatch"><i class="iconfont">&#xf014f;</i>EditMatch</a>
+                            if (mm.Status != 2)
+                            {
+                              <a onclick="$.del('/SaiShi/EndSaiShi?id=@mm.ID','/SaiShi/Index')" class="tablelink" title="End Match"><i class="iconfont">&#xf014f;</i>End Match</a>
+                            }
+                              <a onclick="$.del('/SaiShi/DelSaiShi?id=@mm.ID','/SaiShi/Index')" class="tablelink" title="Delete"><i class="iconfont">&#xf029a;</i>Delete Match</a>
+                        }
+                       @if (User.UserType == 1 && mm.IsAblePinFen)
+                       {
+                            <a href="/SaiShi/EditPinFen?id=@mm.ID" class="tablelink" title="Match Socre"><i class="iconfont">&#xf014f;</i>Match Socre</a>
+                       }
+                       @if (mm.Status == 2)
+                       {
+                            <a href="/SaiShi/EditPinFen?id=@mm.ID" class="tablelink" title="View Match Socre"><i class="iconfont">&#xf014f;</i>View Match Socre</a>
+                       }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.PageLinks(Model.Page, m => "$.getpage('" + Model.Page.ReturnUrl + "','','#list')")
+    <script type="text/javascript">
+$('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+
+
+

@@ -1,0 +1,35 @@
+﻿@model WebModel.Department
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    @Styles.Render("~/bundles/css")
+    @Styles.Render("~/iconfont/css")
+    @Scripts.Render("~/bundles/js")
+</head>
+<body>
+    <div class="place">
+        <span>Position : </span>
+        <ul class="placeul">
+            <li><a href="#">SocreManage</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>SocreManage</span></div>
+        <form id="form1">
+            <ul class="forminfo">
+                <li><label>Score<b>*</b></label><input id="ID" name="ID" type="hidden" value="@Model.ID" /><input id="Score" name="Score" type="text" class="dfinput" tag="numeric" value="@Model.Score" msg="Score" /><i></i></li>
+                
+                <li><label>&nbsp;</label><input name="" type="button" id="savebtn" class="btn" value="Confirm Save" /><input name="" type="button" onclick="javascript:history.go(-1)" class="btnfanhui" value="Return" /></li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $("#savebtn").click(function () {
+        $.yanzheng("/SaiShi/SaveSaiShiForm", "#form1", "/SaiShi/EditPinFen?id=@Model.SaiShiID");
+	})
+</script>
